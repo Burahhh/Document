@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Launch sphinx autobuild",
+      "command": "sphinx-autobuild source build/html",
+      "type": "shell",
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}
